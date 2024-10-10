@@ -1,0 +1,4 @@
+{
+  "name": "chatgpt-on-a-budget",
+  "dockerFile": "Dockerfile"
+}
