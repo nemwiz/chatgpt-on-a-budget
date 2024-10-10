@@ -37,4 +37,4 @@ Follow these steps:
 
 ### Running the project
 
-Run `python3 extract.py`
+Run `uv run create_batch.py`
