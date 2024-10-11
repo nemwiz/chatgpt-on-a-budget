@@ -1,6 +1,5 @@
 import csv
 import json
-import uuid
 
 import os
 
@@ -86,4 +85,6 @@ items = extract_items()
 batch_transactions = create_batch_transactions(items)
 
 with open('my-batch.jsonl', 'w') as batch_file:
-    batch_file.writelines(batch_transactions)
+    for transaction in batch_transactions:
+        batch_file.write(transaction)
+        batch_file.write('\n')
