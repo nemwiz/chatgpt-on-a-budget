@@ -1,5 +1,6 @@
 ## Extracting structured information from documents with LLM
 
+This repository contains code from [the blog post about using Batch API to reduce your LLM costs by 50%.](https://ninkovic.dev/blog/2024/chat-gpt-on-a-budget)
 
 ### OpenAI API key
 
